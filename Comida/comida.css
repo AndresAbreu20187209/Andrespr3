@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.dish-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.dish {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.dish img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.dish h2 {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.dish p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
